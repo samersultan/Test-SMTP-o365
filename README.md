@@ -53,12 +53,3 @@ Send-MailMessage `
 - Replace placeholder email addresses (`sender@example.com`, `recipient@example.com`) with actual addresses.
 - Use caution with credentials; do not hard-code or expose sensitive information in scripts.
 
-## Security Considerations
-
-- Credentials entered interactively are not stored persistently.
-- For automated or production environments, consider secure credential storage or OAuth 2.0 authentication with Microsoft Graph.
-
-## License
-
-This script is provided as-is without warranty. Use and modify freely according to your needs.
-
